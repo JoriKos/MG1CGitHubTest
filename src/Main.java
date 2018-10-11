@@ -3,17 +3,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        //statement
+
         int a;
 
-        boolean rijbewijsBehaald =true;
-        //Operator
-        //Operation
+        boolean rijbewijsBehaald = true;
+
         Scanner s = new Scanner(System.in);
         a = s.nextInt();
-
-        //Conditional
-        //if(){}else if(){}else{}
 
         if(a > 50){
             System.out.println("hallo");
